@@ -42,3 +42,9 @@ export class TasksController {
     return this.tasksService.remove(+id);
   }
 }
+
+// CRUD
+// CREATE - Criar
+// READ - Ler
+// UPDATE - Atualizar
+// DELETE - Excluir/Deletar
