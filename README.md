@@ -4,12 +4,14 @@ Uma API em NestJS para controlar tarefas 😎
 A toDo List API foi criada com o objetivo de criar tarefas simples e controlar o status. Para criação da tarefa, utilizou-se o modeilo abaixo
 ```JSON
 {
-  "status": 'pending',
+  "status": "pending",
   "description": "Fazer os testes dessa aplicação",
  }
 ```
-Com os seguintes status possíveis
+Com os seguintes status possíveis:
+
 **pending** - para tarefas pendentes
+
 **done** - para tarefas concluídas
 
 ## Requisitos
@@ -39,11 +41,17 @@ Execute os seguintes comandos para executar o projeto
 ## Estrutura
 
 **dto** - Esquemas dos objetos recebidos para alteração para cada rota
+
 **entities** - Esquema dos objetos utilizados na aplicação
+
 **filters** - Métodos que filtram as respostas retornadas ao client
+
 **controler** - Arquivo para declaração dos controladores (Neste caso as rotas da REST API)
+
 **module** - Arquivo raíz do módulo da aplicação
+
 **service** - Arquivo de serviço onde serão realizadas as chamadas dos métodos para alteração dos dados
+
 
 ## Rotas
 
@@ -61,31 +69,40 @@ Execute os seguintes comandos para executar o projeto
 ## Bibliotecas/Tecnologias usadas
 
 **NestJS** - Framework backend em NodeJS
+
 https://nestjs.com/
 
 **Prisma IO** - Biblioteca ORM de código aberto
+
 https://www.prisma.io/docs/
 
 **postgresql** - Banco de dados relacional de código aberto
+
 https://www.postgresql.org/
 
 
 ## Referências de documentação
 
 **Primeiros passos NestJS**
+
 https://docs.nestjs.com/first-steps
 
 **Gerador de CRUD**
+
 https://docs.nestjs.com/recipes/crud-generator#crud-generator
 
 **NestJS - Prisma**
+
 https://docs.nestjs.com/recipes/prisma
 
 **Prisma - postgresql**
+
 https://www.prisma.io/docs/concepts/database-connectors/postgresql
 
 **Filtros de exceção**
+
 https://docs.nestjs.com/exception-filters
 
 **Shadow database**
+
 https://www.prisma.io/docs/concepts/components/prisma-migrate/shadow-database
